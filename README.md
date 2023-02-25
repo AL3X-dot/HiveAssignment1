@@ -6,21 +6,25 @@ COPY THE FOLLOWING FILE sales_order_data.csv into the running docker container
 
 `docker cp sales_order_data.csv containerid:/opt`
 
-In hive server CLI run the following commands :
+## In hive server CLI run the following commands :
 
 `hive`
+
 ![image](https://user-images.githubusercontent.com/62464117/221345599-cbc0184e-127a-42d2-9678-0e935a65ea8a.png)
 
 
 `show databases;`
+
 ![image](https://user-images.githubusercontent.com/62464117/221345621-0d0ff57f-a977-4578-a1bc-4e45d1942c60.png)
 
 
 `CREATE DATABASE hive_db;`
+
 ![image](https://user-images.githubusercontent.com/62464117/221345644-e6e85e50-85f6-4ca3-9183-dbb008af5ef9.png)
 
 
 `USE hive_db;`
+
 ![image](https://user-images.githubusercontent.com/62464117/221345667-f29b1ee5-fc4e-4898-9b98-b3968e5c4f43.png)
 
 
